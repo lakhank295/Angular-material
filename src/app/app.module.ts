@@ -40,6 +40,7 @@ import { MatTableExporterModule } from 'mat-table-exporter';
 
 import { MaterialModule } from './material/material.module';
 import { ScrollingModule } from '@angular/cdk/scrolling';
+import { AmchartComponent } from './amchart/amchart.component';
 
 @NgModule({
   declarations: [
@@ -69,7 +70,8 @@ import { ScrollingModule } from '@angular/cdk/scrolling';
     ToolbarComponent,
     TooltipComponent,
     TypographyComponent,
-    VirtualScrollingComponent
+    VirtualScrollingComponent,
+    AmchartComponent
   ],
   imports: [
     BrowserModule,

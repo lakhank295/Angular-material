@@ -7,6 +7,14 @@
     [ngStyle]="{ 'width.em': sidenavWidth }"
   >
     <mat-nav-list>
+      <mat-list-item routerLink="/amchart" routerLinkActive="active">
+        <mat-icon mat-list-icon>keyboard_arrow_right</mat-icon>
+        <div fxFlex="10"></div>
+        <div *ngIf="sidenavWidth > 6" class="sidenav-item">
+          <h5 class="lead">Amchart</h5>
+        </div>
+      </mat-list-item>
+
       <mat-list-item routerLink="/autocomplete" routerLinkActive="active">
         <mat-icon mat-list-icon>keyboard_arrow_right</mat-icon>
         <div fxFlex="10"></div>

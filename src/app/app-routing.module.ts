@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
+import { AmchartComponent } from './amchart/amchart.component';
 import { VirtualScrollingComponent } from './virtual-scrolling/virtual-scrolling.component';
 import { TypographyComponent } from './typography/typography.component';
 import { TooltipComponent } from './tooltip/tooltip.component';
@@ -51,9 +52,8 @@ const routes: Routes = [
   { path: 'toolbar', component: ToolbarComponent },
   { path: 'tooltip', component: TooltipComponent }, 
   { path: 'typography', component: TypographyComponent }, 
-  { path: 'virtual-scrolling', component: VirtualScrollingComponent }  
-
-
+  { path: 'virtual-scrolling', component: VirtualScrollingComponent },
+  { path: 'amchart', component: AmchartComponent }
 ];
 
 @NgModule({
