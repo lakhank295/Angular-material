@@ -1,0 +1,247 @@
+<mat-sidenav-container fullscreen>
+  <mat-sidenav
+    #sidenav
+    mode="side"
+    class="example-sidenav"
+    opened="true"
+    [ngStyle]="{ 'width.em': sidenavWidth }"
+  >
+    <mat-nav-list>
+      <mat-list-item routerLink="/autocomplete" routerLinkActive="active">
+        <mat-icon mat-list-icon>keyboard_arrow_right</mat-icon>
+        <div fxFlex="10"></div>
+        <div *ngIf="sidenavWidth > 6" class="sidenav-item">
+          <h5 class="lead">Auto Complete</h5>
+        </div>
+      </mat-list-item>
+
+      <mat-list-item routerLink="/badge" routerLinkActive="active">
+        <mat-icon mat-list-icon>keyboard_arrow_right</mat-icon>
+
+        <div fxFlex="10"></div>
+        <div *ngIf="sidenavWidth > 6" class="sidenav-item">
+          <h5 class="lead">Badge</h5>
+        </div>
+      </mat-list-item>
+
+      <mat-list-item routerLink="/button" routerLinkActive="active">
+        <mat-icon mat-list-icon>keyboard_arrow_right</mat-icon>
+
+        <div fxFlex="10"></div>
+        <div *ngIf="sidenavWidth > 6" class="sidenav-item">
+          <h5 class="lead">Button</h5>
+        </div>
+      </mat-list-item>
+
+      <mat-list-item routerLink="/card" routerLinkActive="active">
+        <mat-icon mat-list-icon>keyboard_arrow_right</mat-icon>
+
+        <div fxFlex="10"></div>
+        <div *ngIf="sidenavWidth > 6" class="sidenav-item">
+          <h5 class="lead">Card</h5>
+        </div>
+      </mat-list-item>
+
+      <mat-list-item routerLink="/checkbox" routerLinkActive="active">
+        <mat-icon mat-list-icon> keyboard_arrow_right</mat-icon>
+
+        <div fxFlex="10"></div>
+        <div *ngIf="sidenavWidth > 6" class="sidenav-item">
+          <h5 class="lead">Checkbox</h5>
+        </div>
+      </mat-list-item>
+
+      <mat-list-item routerLink="/datatable" routerLinkActive="active">
+        <mat-icon mat-list-icon> keyboard_arrow_right</mat-icon>
+
+        <div fxFlex="10"></div>
+        <div *ngIf="sidenavWidth > 6" class="sidenav-item">
+          <h5 class="lead">Data Tables</h5>
+        </div>
+      </mat-list-item>
+
+
+      <mat-list-item routerLink="/datepicker" routerLinkActive="active">
+        <mat-icon mat-list-icon> keyboard_arrow_right</mat-icon>
+
+        <div fxFlex="10"></div>
+        <div *ngIf="sidenavWidth > 6" class="sidenav-item">
+          <h5 class="lead">Date picker</h5>
+        </div>
+      </mat-list-item>
+
+      <mat-list-item routerLink="/dialog" routerLinkActive="active">
+        <mat-icon mat-list-icon> keyboard_arrow_right</mat-icon>
+
+        <div fxFlex="10"></div>
+        <div *ngIf="sidenavWidth > 6" class="sidenav-item">
+          <h5 class="lead">Dialog</h5>
+        </div>
+      </mat-list-item>
+
+      <mat-list-item routerLink="/dialog-example" routerLinkActive="active">
+        <mat-icon mat-list-icon> keyboard_arrow_right</mat-icon>
+
+        <div fxFlex="10"></div>
+        <div *ngIf="sidenavWidth > 6" class="sidenav-item">
+          <h5 class="lead">Dialog Example</h5>
+        </div>
+      </mat-list-item>
+
+      <mat-list-item routerLink="/expansion-panel" routerLinkActive="active">
+        <mat-icon mat-list-icon> keyboard_arrow_right</mat-icon>
+
+        <div fxFlex="10"></div>
+        <div *ngIf="sidenavWidth > 6" class="sidenav-item">
+          <h5 class="lead">Expansion panel</h5>
+        </div>
+      </mat-list-item>
+
+      <mat-list-item routerLink="/gridlist" routerLinkActive="active">
+        <mat-icon mat-list-icon> keyboard_arrow_right</mat-icon>
+
+        <div fxFlex="10"></div>
+        <div *ngIf="sidenavWidth > 6" class="sidenav-item">
+          <h5 class="lead">Grid List</h5>
+        </div>
+      </mat-list-item>
+
+      <mat-list-item routerLink="/icons" routerLinkActive="active">
+        <mat-icon mat-list-icon> keyboard_arrow_right</mat-icon>
+
+        <div fxFlex="10"></div>
+        <div *ngIf="sidenavWidth > 6" class="sidenav-item">
+          <h5 class="lead">Icons</h5>
+        </div>
+      </mat-list-item>
+
+      <mat-list-item routerLink="/input" routerLinkActive="active">
+        <mat-icon mat-list-icon> keyboard_arrow_right</mat-icon>
+
+        <div fxFlex="10"></div>
+        <div *ngIf="sidenavWidth > 6" class="sidenav-item">
+          <h5 class="lead">Input</h5>
+        </div>
+      </mat-list-item>
+
+      <mat-list-item routerLink="/list" routerLinkActive="active">
+        <mat-icon mat-list-icon> keyboard_arrow_right</mat-icon>
+
+        <div fxFlex="10"></div>
+        <div *ngIf="sidenavWidth > 6" class="sidenav-item">
+          <h5 class="lead">List</h5>
+        </div>
+      </mat-list-item>
+
+      <mat-list-item routerLink="/menu" routerLinkActive="active">
+        <mat-icon mat-list-icon> keyboard_arrow_right</mat-icon>
+
+        <div fxFlex="10"></div>
+        <div *ngIf="sidenavWidth > 6" class="sidenav-item">
+          <h5 class="lead">Menu</h5>
+        </div>
+      </mat-list-item>
+
+      <mat-list-item routerLink="/progress-spinner" routerLinkActive="active">
+        <mat-icon mat-list-icon> keyboard_arrow_right</mat-icon>
+
+        <div fxFlex="10"></div>
+        <div *ngIf="sidenavWidth > 6" class="sidenav-item">
+          <h5 class="lead">Progress Spinner</h5>
+        </div>
+      </mat-list-item>
+
+      <mat-list-item routerLink="/radio" routerLinkActive="active">
+        <mat-icon mat-list-icon> keyboard_arrow_right</mat-icon>
+
+        <div fxFlex="10"></div>
+        <div *ngIf="sidenavWidth > 6" class="sidenav-item">
+          <h5 class="lead">Radio</h5>
+        </div>
+      </mat-list-item>
+
+      <mat-list-item routerLink="/select" routerLinkActive="active">
+        <mat-icon mat-list-icon> keyboard_arrow_right</mat-icon>
+
+        <div fxFlex="10"></div>
+        <div *ngIf="sidenavWidth > 6" class="sidenav-item">
+          <h5 class="lead">Select</h5>
+        </div>
+      </mat-list-item>
+
+      <mat-list-item routerLink="/snackbar" routerLinkActive="active">
+        <mat-icon mat-list-icon> keyboard_arrow_right</mat-icon>
+
+        <div fxFlex="10"></div>
+        <div *ngIf="sidenavWidth > 6" class="sidenav-item">
+          <h5 class="lead">Snackbar</h5>
+        </div>
+      </mat-list-item>
+      
+
+      <mat-list-item routerLink="/stepper" routerLinkActive="active">
+        <mat-icon mat-list-icon> keyboard_arrow_right</mat-icon>
+
+        <div fxFlex="10"></div>
+        <div *ngIf="sidenavWidth > 6" class="sidenav-item">
+          <h5 class="lead">Stepper</h5>
+        </div>
+      </mat-list-item>
+
+      <mat-list-item routerLink="/tabs" routerLinkActive="active">
+        <mat-icon mat-list-icon> keyboard_arrow_right</mat-icon>
+
+        <div fxFlex="10"></div>
+        <div *ngIf="sidenavWidth > 6" class="sidenav-item">
+          <h5 class="lead">Tabs</h5>
+        </div>
+      </mat-list-item>
+
+      <mat-list-item routerLink="/toolbar" routerLinkActive="active">
+        <mat-icon mat-list-icon> keyboard_arrow_right</mat-icon>
+
+        <div fxFlex="10"></div>
+        <div *ngIf="sidenavWidth > 6" class="sidenav-item">
+          <h5 class="lead">Toolbar</h5>
+        </div>
+      </mat-list-item>
+
+      <mat-list-item routerLink="/tooltip" routerLinkActive="active">
+        <mat-icon mat-list-icon> keyboard_arrow_right</mat-icon>
+
+        <div fxFlex="10"></div>
+        <div *ngIf="sidenavWidth > 6" class="sidenav-item">
+          <h5 class="lead">Tooltip</h5>
+        </div>
+      </mat-list-item>
+
+      <mat-list-item routerLink="/typography" routerLinkActive="active">
+        <mat-icon mat-list-icon> keyboard_arrow_right</mat-icon>
+
+        <div fxFlex="10"></div>
+        <div *ngIf="sidenavWidth > 6" class="sidenav-item">
+          <h5 class="lead">Typography</h5>
+        </div>
+      </mat-list-item>
+
+      <mat-list-item routerLink="/virtual-scrolling" routerLinkActive="active">
+        <mat-icon mat-list-icon> keyboard_arrow_right</mat-icon>
+
+        <div fxFlex="10"></div>
+        <div *ngIf="sidenavWidth > 6" class="sidenav-item">
+          <h5 class="lead">Virtual Scrolling</h5>
+        </div>
+      </mat-list-item>
+      
+    </mat-nav-list>
+  </mat-sidenav>
+
+  <div class="example-sidenav-content">
+    <!-- <h1>Hello World</h1> -->
+    <div class="main">
+      <router-outlet></router-outlet>
+    </div>
+    <!-- <mat-icon (click)="sidenav.toggle()" class="sidenav-menu">menu</mat-icon> -->
+  </div>
+
+</mat-sidenav-container>
